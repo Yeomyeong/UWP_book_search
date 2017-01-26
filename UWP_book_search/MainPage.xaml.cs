@@ -28,7 +28,7 @@ namespace UWP_book_search
     public sealed partial class MainPage : Page
     {
         private string BOOK_SEARCH_URL = "https://apis.daum.net/search/book?apikey={0}&q={1}&output={2}";
-        private string API_KEY = "323439a4d55e636aac4bf0102c00c1d9";
+        private string API_KEY = ""; //다음 검색 API KEY - https://developers.daum.net 에서 발급
         private string OUTPUT = "xml";
 
         public SQLiteConnection SQLCon;
